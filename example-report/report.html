@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html><html lang="en">
+  <head>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Unknown project code inspection report - 
+Friday, February 8, 2019 10:24:27
+
+
+</title>
+    <style>
+                .font-root {
+                    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+                    font-weight: 400;
+                    line-height: 1.5;
+                }
+                .document-root {
+                    padding: 0 7%;
+                }
+                .header {
+                    font-weight: 400;
+                    margin: 0 0 15px;
+                }
+                .header__l1 {
+                    font-size: 28px;
+                    margin: 0 0 10px
+                }
+                .header__l2 {
+                    font-size: 24px;
+                }
+                .header__l3 {
+                    font-size: 20px;
+                }
+                .report-date {
+                    color: #999;
+                    margin: 0 0 30px;
+                }
+                .button-toggle {
+                    position: relative;
+                    background-color: transparent;
+                    border: none;
+                    height: 18px;
+                    width: 18px;
+                    padding: 0;
+                    cursor: pointer;
+                }
+                .button-toggle::before,
+                .button-toggle::after {
+                    display: block;
+                    content: '';
+                    background-color: #000;
+                    position: absolute;
+                    top: 8px;
+                    width: 100%;
+                    height: 2px;
+                    transform: rotate3d(0, 0, 0, 0);
+                    transition: transform 0.11s linear;
+                }
+                .button-toggle--collapsed::before{
+                    transform: rotate3d(0, 0, 1, 180deg);
+                }
+                .button-toggle--collapsed::after{
+                    transform: rotate3d(0, 0, 1, 90deg);
+                }
+                .button-toggle--top2px {
+                    top: 2px;
+                }
+                .hyperlink {
+                    color: #000;
+                    text-decoration: none;
+                }
+                .hyperlink:hover {
+                    text-decoration: underline;
+                }
+                .report-section {
+                    margin: 0 0 20px;
+                }
+                .section-group {
+                    margin: 0 0 20px 27px;
+                }
+                .collapsable-container {
+                    max-height: 15000px;
+                    opacity: 1;
+                    transition: max-height 0.15s linear 0s,
+                    opacity 0.15s linear 0.15s;
+                }
+                .collapsable-container--collapsed {
+                    visibility: hidden;
+                    max-height: 0;
+                    opacity: 0;
+                    transition: max-height 0.15s linear 0.15s,
+                    opacity 0.15s linear 0s,
+                    visibility 0.15s linear 0s;
+                    overflow: hidden;
+                }
+                .report-issue {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    width: 100%;
+                    margin: 0;
+                    padding: 3px 0;
+                }
+                .report-issue:nth-child(odd) {
+                    background-color: #eee;
+                }
+                .report-issue:last-child {
+                    margin-bottom: 15px;
+                }
+                .report-issue__line {
+                    flex-basis: 20%;
+                }
+                .report-issue__message {
+                    flex-basis: 80%;
+                    flex-grow: 1;
+                }
+                .report-issue__severity {
+                    width: 25px;
+                    border-radius: 1px;
+                    border: 1px solid #999;
+                    margin-right: 20px;
+                }
+                .report-issue__severity--INFO {
+                    background-color: #c6e1fd;
+                }
+                .report-issue__severity--HINT {
+                    background-color: #8df58b;
+                }
+                .report-issue__severity--SUGGESTION {
+                    background-color: #ffe682;
+                }
+                .report-issue__severity--WARNING {
+                    background-color: #ffc181;
+                }
+                .report-issue__severity--ERROR {
+                    background-color: #f30404;
+                }
+            </style>
+  </head>
+  <body class="font-root document-root">
+    <h1 class="header header__l1">Unknown project code inspection report</h1>
+    <p class="report-date">
+Friday, February 8, 2019 10:24:27
+
+
+</p><section class="report-section js-report-section"><h2 class="header header__l2"><button class="button-toggle js-section-toggle" type="button" aria-label="Toggle section contents" aria-controls="section-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramCommon</span></h2>
+      <div class="section-group collapsable-container" id="section-1"><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramCommon\Exceptions\ConfigurationException.cs</span></h3>
+          <div class="collapsable-container" id="article-1-1">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramCommon\Exceptions\ConfigurationException.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Constructor 'ConfigurationException' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\Daemon\Daemon.cs#11" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 11</a><span class="report-issue__message">Class 'Daemon' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Accessor 'ChatId.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#10" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 10</a><span class="report-issue__message">Accessor 'Text.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#12" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 12</a><span class="report-issue__message">Auto-property accessor is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramDaemon.Test\Services\TelegramService\TelegramOptionsTest.cs#9" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 9</a><span class="report-issue__message">Class 'TelegramOptionsTest' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramDaemon.Test\Services\TelegramService\TelegramServiceImplTest.cs#17" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 17</a><span class="report-issue__message">Class 'TelegramServiceImplTest' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs#6" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 6</a><span class="report-issue__message">Class 'LoggerSinkConfigurationExtensions' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Method 'XUnit' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\XUnitLogger.cs#15" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 15</a><span class="report-issue__message">Constructor 'XUnitLogger' can be made protected</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Authentication\GitlabAuthenticationHandler.cs#13" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 13</a><span class="report-issue__message">Class 'GitlabAuthenticationHandler' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Authentication\ServiceCollectionExtensions.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Method return value is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramWeb\Program.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Access to disposed closure</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#40" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 40</a><span class="report-issue__message">Accessor 'Hash.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#42" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 42</a><span class="report-issue__message">Accessor 'AuthorName.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#44" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 44</a><span class="report-issue__message">Accessor 'AuthorEmail.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Accessor 'Message.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#48" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 48</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#51" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 51</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#53" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 53</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#55" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 55</a><span class="report-issue__message">Accessor 'Server.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#32" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 32</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Accessor 'UserName.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#19" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 19</a><span class="report-issue__message">Property 'Configuration' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Method 'Configure' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Parameter 'lt' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Integration\TGramWeb.Integration\IntegrationUtils.cs#117" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 117</a><span class="report-issue__message">Class 'RequestGate' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs#170" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 170</a><span class="report-issue__message">Class 'MockGitlabProcessor' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs#170" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 170</a><span class="report-issue__message">Class 'MockGitlabProcessor' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\MessageClient\MessageClientImplTest.cs#11" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 11</a><span class="report-issue__message">Class 'MessageClientImplTest' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-2" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramDaemon\Services\Daemon\Daemon.cs</span></h3>
+          <div class="collapsable-container" id="article-1-2">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\Daemon\Daemon.cs#11" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 11</a><span class="report-issue__message">Class 'Daemon' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-3" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramDaemon\Services\TelegramService\SendMessageRequest.cs</span></h3>
+          <div class="collapsable-container" id="article-1-3">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Accessor 'ChatId.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#10" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 10</a><span class="report-issue__message">Accessor 'Text.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#12" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 12</a><span class="report-issue__message">Auto-property accessor is never used</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-4" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramDaemon.Test\Services\TelegramService\TelegramOptionsTest.cs</span></h3>
+          <div class="collapsable-container" id="article-1-4">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramDaemon.Test\Services\TelegramService\TelegramOptionsTest.cs#9" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 9</a><span class="report-issue__message">Class 'TelegramOptionsTest' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-5" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramDaemon.Test\Services\TelegramService\TelegramServiceImplTest.cs</span></h3>
+          <div class="collapsable-container" id="article-1-5">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramDaemon.Test\Services\TelegramService\TelegramServiceImplTest.cs#17" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 17</a><span class="report-issue__message">Class 'TelegramServiceImplTest' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-6" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs</span></h3>
+          <div class="collapsable-container" id="article-1-6">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs#6" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 6</a><span class="report-issue__message">Class 'LoggerSinkConfigurationExtensions' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Method 'XUnit' is never used</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-7" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramTestUtil\XUnitLogger.cs</span></h3>
+          <div class="collapsable-container" id="article-1-7">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\XUnitLogger.cs#15" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 15</a><span class="report-issue__message">Constructor 'XUnitLogger' can be made protected</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-8" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Authentication\GitlabAuthenticationHandler.cs</span></h3>
+          <div class="collapsable-container" id="article-1-8">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Authentication\GitlabAuthenticationHandler.cs#13" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 13</a><span class="report-issue__message">Class 'GitlabAuthenticationHandler' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-9" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Authentication\ServiceCollectionExtensions.cs</span></h3>
+          <div class="collapsable-container" id="article-1-9">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Authentication\ServiceCollectionExtensions.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Method return value is never used</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-10" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Program.cs</span></h3>
+          <div class="collapsable-container" id="article-1-10">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramWeb\Program.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Access to disposed closure</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-11" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs</span></h3>
+          <div class="collapsable-container" id="article-1-11">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#40" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 40</a><span class="report-issue__message">Accessor 'Hash.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#42" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 42</a><span class="report-issue__message">Accessor 'AuthorName.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#44" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 44</a><span class="report-issue__message">Accessor 'AuthorEmail.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Accessor 'Message.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#48" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 48</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-12" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs</span></h3>
+          <div class="collapsable-container" id="article-1-12">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#51" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 51</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#53" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 53</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#55" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 55</a><span class="report-issue__message">Accessor 'Server.set' can be made private</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-13" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs</span></h3>
+          <div class="collapsable-container" id="article-1-13">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#32" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 32</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Accessor 'UserName.set' can be made private</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-14" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Startup.cs</span></h3>
+          <div class="collapsable-container" id="article-1-14">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#19" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 19</a><span class="report-issue__message">Property 'Configuration' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Method 'Configure' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Parameter 'lt' is never used</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-15" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Integration\TGramWeb.Integration\IntegrationUtils.cs</span></h3>
+          <div class="collapsable-container" id="article-1-15">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Integration\TGramWeb.Integration\IntegrationUtils.cs#117" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 117</a><span class="report-issue__message">Class 'RequestGate' can be made private</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-16" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs</span></h3>
+          <div class="collapsable-container" id="article-1-16">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs#170" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 170</a><span class="report-issue__message">Class 'MockGitlabProcessor' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs#170" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 170</a><span class="report-issue__message">Class 'MockGitlabProcessor' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-1-17" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramWeb.Test\Services\MessageClient\MessageClientImplTest.cs</span></h3>
+          <div class="collapsable-container" id="article-1-17">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\MessageClient\MessageClientImplTest.cs#11" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 11</a><span class="report-issue__message">Class 'MessageClientImplTest' is never instantiated</span></p>
+          </div></article></div></section><section class="report-section js-report-section"><h2 class="header header__l2"><button class="button-toggle js-section-toggle" type="button" aria-label="Toggle section contents" aria-controls="section-2" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramDaemon</span></h2>
+      <div class="section-group collapsable-container" id="section-2"><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-2-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramDaemon\Services\Daemon\Daemon.cs</span></h3>
+          <div class="collapsable-container" id="article-2-1">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\Daemon\Daemon.cs#11" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 11</a><span class="report-issue__message">Class 'Daemon' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Accessor 'ChatId.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#10" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 10</a><span class="report-issue__message">Accessor 'Text.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#12" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 12</a><span class="report-issue__message">Auto-property accessor is never used</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-2-2" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramDaemon\Services\TelegramService\SendMessageRequest.cs</span></h3>
+          <div class="collapsable-container" id="article-2-2">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Accessor 'ChatId.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#10" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 10</a><span class="report-issue__message">Accessor 'Text.get' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramDaemon\Services\TelegramService\SendMessageRequest.cs#12" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 12</a><span class="report-issue__message">Auto-property accessor is never used</span></p>
+          </div></article></div></section><section class="report-section js-report-section"><h2 class="header header__l2"><button class="button-toggle js-section-toggle" type="button" aria-label="Toggle section contents" aria-controls="section-3" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramDaemon.Test</span></h2>
+      <div class="section-group collapsable-container" id="section-3"><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-3-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramDaemon.Test\Services\TelegramService\TelegramOptionsTest.cs</span></h3>
+          <div class="collapsable-container" id="article-3-1">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramDaemon.Test\Services\TelegramService\TelegramOptionsTest.cs#9" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 9</a><span class="report-issue__message">Class 'TelegramOptionsTest' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramDaemon.Test\Services\TelegramService\TelegramServiceImplTest.cs#17" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 17</a><span class="report-issue__message">Class 'TelegramServiceImplTest' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-3-2" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramDaemon.Test\Services\TelegramService\TelegramServiceImplTest.cs</span></h3>
+          <div class="collapsable-container" id="article-3-2">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramDaemon.Test\Services\TelegramService\TelegramServiceImplTest.cs#17" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 17</a><span class="report-issue__message">Class 'TelegramServiceImplTest' is never instantiated</span></p>
+          </div></article></div></section><section class="report-section js-report-section"><h2 class="header header__l2"><button class="button-toggle js-section-toggle" type="button" aria-label="Toggle section contents" aria-controls="section-4" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramTestUtil</span></h2>
+      <div class="section-group collapsable-container" id="section-4"><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-4-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs</span></h3>
+          <div class="collapsable-container" id="article-4-1">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs#6" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 6</a><span class="report-issue__message">Class 'LoggerSinkConfigurationExtensions' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\LoggerSinkConfigurationExtensions.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Method 'XUnit' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\XUnitLogger.cs#15" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 15</a><span class="report-issue__message">Constructor 'XUnitLogger' can be made protected</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-4-2" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramTestUtil\XUnitLogger.cs</span></h3>
+          <div class="collapsable-container" id="article-4-2">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramTestUtil\XUnitLogger.cs#15" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 15</a><span class="report-issue__message">Constructor 'XUnitLogger' can be made protected</span></p>
+          </div></article></div></section><section class="report-section js-report-section"><h2 class="header header__l2"><button class="button-toggle js-section-toggle" type="button" aria-label="Toggle section contents" aria-controls="section-5" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb</span></h2>
+      <div class="section-group collapsable-container" id="section-5"><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-5-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Authentication\GitlabAuthenticationHandler.cs</span></h3>
+          <div class="collapsable-container" id="article-5-1">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Authentication\GitlabAuthenticationHandler.cs#13" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 13</a><span class="report-issue__message">Class 'GitlabAuthenticationHandler' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Authentication\ServiceCollectionExtensions.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Method return value is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramWeb\Program.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Access to disposed closure</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#40" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 40</a><span class="report-issue__message">Accessor 'Hash.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#42" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 42</a><span class="report-issue__message">Accessor 'AuthorName.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#44" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 44</a><span class="report-issue__message">Accessor 'AuthorEmail.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Accessor 'Message.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#48" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 48</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#51" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 51</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#53" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 53</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#55" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 55</a><span class="report-issue__message">Accessor 'Server.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#32" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 32</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Accessor 'UserName.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#19" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 19</a><span class="report-issue__message">Property 'Configuration' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Method 'Configure' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Parameter 'lt' is never used</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-5-2" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Authentication\ServiceCollectionExtensions.cs</span></h3>
+          <div class="collapsable-container" id="article-5-2">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Authentication\ServiceCollectionExtensions.cs#8" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 8</a><span class="report-issue__message">Method return value is never used</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-5-3" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Program.cs</span></h3>
+          <div class="collapsable-container" id="article-5-3">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--WARNING" title="WARNING"></span><a href="TGramWeb\Program.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Access to disposed closure</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-5-4" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs</span></h3>
+          <div class="collapsable-container" id="article-5-4">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#40" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 40</a><span class="report-issue__message">Accessor 'Hash.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#42" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 42</a><span class="report-issue__message">Accessor 'AuthorName.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#44" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 44</a><span class="report-issue__message">Accessor 'AuthorEmail.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Accessor 'Message.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\CommitInfo.cs#48" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 48</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-5-5" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs</span></h3>
+          <div class="collapsable-container" id="article-5-5">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#51" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 51</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#53" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 53</a><span class="report-issue__message">Accessor 'Url.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\ProjectInfo.cs#55" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 55</a><span class="report-issue__message">Accessor 'Server.set' can be made private</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-5-6" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs</span></h3>
+          <div class="collapsable-container" id="article-5-6">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#32" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 32</a><span class="report-issue__message">Accessor 'Name.set' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Services\GitlabProcessService\Models\UserInfo.cs#34" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 34</a><span class="report-issue__message">Accessor 'UserName.set' can be made private</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-5-7" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb\Startup.cs</span></h3>
+          <div class="collapsable-container" id="article-5-7">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#19" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 19</a><span class="report-issue__message">Property 'Configuration' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Method 'Configure' is never used</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="TGramWeb\Startup.cs#46" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 46</a><span class="report-issue__message">Parameter 'lt' is never used</span></p>
+          </div></article></div></section><section class="report-section js-report-section"><h2 class="header header__l2"><button class="button-toggle js-section-toggle" type="button" aria-label="Toggle section contents" aria-controls="section-6" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb.Integration</span></h2>
+      <div class="section-group collapsable-container" id="section-6"><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-6-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Integration\TGramWeb.Integration\IntegrationUtils.cs</span></h3>
+          <div class="collapsable-container" id="article-6-1">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Integration\TGramWeb.Integration\IntegrationUtils.cs#117" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 117</a><span class="report-issue__message">Class 'RequestGate' can be made private</span></p>
+          </div></article></div></section><section class="report-section js-report-section"><h2 class="header header__l2"><button class="button-toggle js-section-toggle" type="button" aria-label="Toggle section contents" aria-controls="section-7" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   TGramWeb.Test</span></h2>
+      <div class="section-group collapsable-container" id="section-7"><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-7-1" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs</span></h3>
+          <div class="collapsable-container" id="article-7-1">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs#170" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 170</a><span class="report-issue__message">Class 'MockGitlabProcessor' can be made private</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\GitlabProcessService\RequestProcessors\Comment\CommentGitlabProcessorTest.cs#170" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 170</a><span class="report-issue__message">Class 'MockGitlabProcessor' is never instantiated</span></p>
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\MessageClient\MessageClientImplTest.cs#11" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 11</a><span class="report-issue__message">Class 'MessageClientImplTest' is never instantiated</span></p>
+          </div></article><article class="report-article js-report-article"><h3 class="header header__l3"><button class="button-toggle button-toggle--top2px js-article-toggle" type="button" aria-label="Toggle file contents" aria-controls="article-7-2" aria-expanded="true" data-active-self="button-toggle--collapsed" data-active-target="collapsable-container--collapsed"></button><span>   Test\TGramWeb.Test\Services\MessageClient\MessageClientImplTest.cs</span></h3>
+          <div class="collapsable-container" id="article-7-2">
+            <p class="report-issue"><span class="report-issue__severity report-issue__severity--SUGGESTION" title="SUGGESTION"></span><a href="Test\TGramWeb.Test\Services\MessageClient\MessageClientImplTest.cs#11" class="report-issue__line hyperlink" target="__blank" rel="noopener">Line: 11</a><span class="report-issue__message">Class 'MessageClientImplTest' is never instantiated</span></p>
+          </div></article></div></section></body>
+        <script>
+            (function(){
+                var ToggleButton = function(element, root) {
+                    this._element = element;
+                    this._root = root;
+                };
+                ToggleButton._updateTargetTabIndex = function(target, expanded) {
+                    if (expanded) {
+                        target.removeAttribute('tabindex');
+                    } else if (target.hasAttribute('data-tabindex')) {
+                        const tabIndex = parseInt(target.getAttribute('data-tabindex'), 10);
+                        !isNaN(tabIndex) && (target.tabIndex = tabIndex);
+                    }
+                }
+                ToggleButton.prototype.init = function() {
+                    this._element.addEventListener('click', this._handleClick.bind(this));
+                };
+                ToggleButton.prototype._handleClick = function(e) {
+                    var ariaControls = this._element.getAttribute('aria-controls');
+                    var target = this._root.querySelector('#' + ariaControls);
+
+                    const expandedStr = this._element.getAttribute('aria-expanded') || 'false';
+                    const expanded = expandedStr == 'true';
+
+                    this._onToggle(target, expanded, e);
+                };
+                ToggleButton.prototype._onToggle = function(target, expanded, e) {
+                    this._element.setAttribute('aria-expanded', !expanded.toString());
+                    target.setAttribute('aria-hidden', expanded.toString());
+
+                    ToggleButton._updateTargetTabIndex(target, expanded);
+
+                    var selfActive = this._element.getAttribute('data-active-self');
+                    var targetActive = this._element.getAttribute('data-active-target');
+
+                    if (selfActive || targetActive) {
+                        this._element.classList.toggle(selfActive);
+                        target.classList.toggle(targetActive);
+                    }
+                };
+
+                var sections = document.querySelectorAll('.js-report-section');
+                Array.prototype.forEach.call(sections, function(section) {
+                    var button = section.querySelector('.js-section-toggle');
+                    new ToggleButton(button, section).init();
+                    var articles = section.querySelectorAll('.js-report-article');
+                    Array.prototype.forEach.call(articles, function(article) {
+                        var buttons = section.querySelectorAll('.js-article-toggle');
+                        Array.prototype.forEach.call(buttons, function(button) {
+                            new ToggleButton(button, article).init();
+                        });
+                    });
+                });
+            })();
+        </script>
+        </html>
