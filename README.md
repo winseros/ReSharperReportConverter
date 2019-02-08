@@ -52,6 +52,7 @@ run.ps1 -ResharperReport .\example-resharper-output\resharper-output.xml -Output
 
 ### UrlFormat
 **Type**: string
+
 **Description**: Items in the resulting HTML report are intended to work as hyperlinks and target to files at some source control (BitBucket/GitHub/GitLab). Use this parameter to specify address of your source control. The template strings has the following parameters 
 * `{0}` - would be replaced with a file name
 * `{1}` - would be replaced with a line number
