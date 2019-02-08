@@ -13,7 +13,10 @@
                 "-ResharperReport", 
                 ".\\example-resharper-output\\resharper-output.xml",
                 "-OutputFile",
-                ".\\example-report\\report.html""
+                ".\\example-report\\report.html",
+                "-UrlFormat",
+                "https://github.com/winseros/GitlabTelegramChannel/tree/v1.0.1/src/{0}#L{1}"
+
             ],
             "cwd": "${workspaceFolder}"
         }

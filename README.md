@@ -61,7 +61,7 @@ run.ps1 -ResharperReport .\example-resharper-output\resharper-output.xml -Output
 
 **Example**: 
 ```
--UrlFormat "https://github.com/winseros/GitlabTelegramChannel/tree/v1.0.1/{0}#L{1}"
+-UrlFormat "https://github.com/winseros/GitlabTelegramChannel/tree/v1.0.1/src/{0}#L{1}"
 ```
 **Default**: `{0}#{1}`
 
