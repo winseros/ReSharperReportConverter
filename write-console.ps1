@@ -20,12 +20,14 @@ $HasIssues = Analyze-Report -Xml $ReportContext
 if ($HasIssues -gt 0) {
     try {
         Write-Host ("InspectCode reported issues in codebase")
+        Push-Location (Split-Path -Parent $MyInvocation.MyCommand.Path)
         .\_Transform-Context.ps1 -Xml $ReportContext -DumpTo $ContextFile -UrlFormat "{0}#{1}"
         .\_Write-Console.ps1 -ContextFile (Get-Content $ContextFile) -Colorize $Colorize
     } finally{
         if (Test-Path $ContextFile) {
             Remove-Item -Path $ContextFile -Force
         }
+        Pop-Location
     }
 } else {
     Write-Host "ReSharper detected no issues in the codebase"
