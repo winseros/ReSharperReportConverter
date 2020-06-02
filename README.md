@@ -11,7 +11,7 @@ inspectCode.exe -o="<path_to_report_xml>" <path_to_solution>
 
 2) Run the powershell script:
 ```
-run.ps1 -ResharperReport <path_to_report_xml> -OutputFile <path_to_report_html>
+make-html.ps1 -ResharperReport <path_to_report_xml> -OutputFile <path_to_report_html>
 ```
 
 3) Use the generated HTML file as desired
@@ -21,11 +21,11 @@ run.ps1 -ResharperReport <path_to_report_xml> -OutputFile <path_to_report_html>
 ```
 inspectCode.exe -o=".\example-resharper-output\resharper-output.xml" ..\GitlabTelegramChannel\src\TGramIntegration.sln
 
-run.ps1 -ResharperReport .\example-resharper-output\resharper-output.xml -OutputFile .\example-report\report.html
+make-html.ps1 -ResharperReport .\example-resharper-output\resharper-output.xml -OutputFile .\example-report\report.html
 ```
 
 ## Options
-`run.ps1` supports the following options
+`make-html.ps1` supports the following options
 
 ### ResharperReport
 **Type**: string

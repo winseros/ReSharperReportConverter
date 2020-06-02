@@ -7,8 +7,8 @@
         {
             "type": "PowerShell",
             "request": "launch",
-            "name": "run.ps1",
-            "script": "./run.ps1",
+            "name": "make-html.ps1",
+            "script": "./make-html.ps1",
             "args": [
                 "-ResharperReport", 
                 ".\\example-resharper-output\\resharper-output.xml",
@@ -16,6 +16,18 @@
                 ".\\example-report\\report.html",
                 "-UrlFormat",
                 "https://github.com/winseros/GitlabTelegramChannel/tree/v1.0.1/src/{0}#L{1}"
+
+            ],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": "write-console.ps1",
+            "script": "./write-console.ps1",
+            "args": [
+                "-ResharperReport", 
+                ".\\example-resharper-output\\resharper-output.xml"
 
             ],
             "cwd": "${workspaceFolder}"
