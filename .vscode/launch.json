@@ -31,6 +31,18 @@
 
             ],
             "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "PowerShell",
+            "request": "launch",
+            "name": ".tools/pack.ps1",
+            "script": ".tools/pack.ps1",
+            "args": [
+                "-Version", 
+                "1.0.0"
+
+            ],
+            "cwd": "${workspaceFolder}"
         }
     ]
 }
