@@ -2,6 +2,8 @@
 
 Takes the standard [ReSharper CLT](https://www.jetbrains.com/resharper/download/#section=commandline) output and converts it into a human-readable _HMTL report_ or _console output_.
 
+The package can be used inside docker. See [the example](how-to-docker).
+
 ## Generate console output
 
 1) Generate a report file using the standard [ReSharper CLT](https://www.jetbrains.com/resharper/download/#section=commandline) commands, e.g.:
